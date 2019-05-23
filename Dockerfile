@@ -1,4 +1,4 @@
-FROM hpfousac/docker-elasticsearch:6.7.0
+FROM hpfousac/docker-elasticsearch:6.8.0
 
 # Override config, otherwise plug-in install will fail
 ADD config /elasticsearch/config
